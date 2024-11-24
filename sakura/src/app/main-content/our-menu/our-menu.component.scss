@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Economica';
+    font-style: 'Bold';
+    font-weight: 800;
+    src: url('../../../assets/fonts/Economica/Economica-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    padding: 24px;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    gap: 56px;
+    >h2 {
+        font-size: 60px;
+        color: #9f0908;
+        margin-top: 120px;
+        margin-bottom: 8px;
+    }
+    .menu-cart {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        gap: 80px;
+        img {
+            width: 352px;
+            height: 352px;
+            padding-left: 160px;
+        }
+        >table {
+            width: 450px;
+        }
+    }
+}
+
+.middle {
+    justify-content: flex-end;
+    padding-right: 160px;
+    margin-left: 0!important;
+}
+
+.headline-dishes {
+    font-size: 56px;
+    font-family: 'Economica';
+    margin-bottom: 16px;
+    text-align: start;
+}
+
+.dish {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba($color: #675e54, $alpha: 1.0);
+}

@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a141e;
+    >img {
+        width: 44px;
+        padding: 16px;
+        margin-left: 160px
+    }
+    >div {
+        width: 17%;
+        padding: 16px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 160px;
+        >img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
